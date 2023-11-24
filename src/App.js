@@ -35,7 +35,7 @@ function App() {
 
   return (
     <div className='header field'>
-      BIG Al's SUPER VAT CALCULATOR...!
+      <b>BIG Al's SUPER VAT CALCULATOR...!</b>
       <div className='colour-border'>
         <VatRateField customstyle="field" vatRateChanged={handleVatRateChanged} value={vatRate} updatePrices={updatePrices} />
         <PriceEntryField customstyle="field" label="Price excl VAT: " priceChanged={handleNetPriceChange} price={netPrice === 0.0 ? "" : netPrice} />
